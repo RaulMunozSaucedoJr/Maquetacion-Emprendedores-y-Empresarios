@@ -22,6 +22,6 @@ Dillinger uses a number of open source projects to work properly:
 - [BOOTSTRAP 5].
 - [JAVASCRIPT/MODULES]
 - 
-## LiceNCIA
+## Licencia
 
 MIT
