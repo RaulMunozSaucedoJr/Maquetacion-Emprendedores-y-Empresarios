@@ -2,6 +2,8 @@ $color_blue: #447fff;
 $color_blue__fade: rgba($color_blue, .1);
 $color_green: #7DAF42;
 $color_cloud: #eaeaea;
+$red: #f40404;
+$black:#000;
 
 * {
     box-sizing: border-box;
@@ -250,4 +252,30 @@ a:active {
     &-right {
         height: 80vh;
     }
+}
+
+
+input+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: $red;
+    text-decoration: none;
+    text-align: center;
+    outline: none !important;
+    opacity: 0;
+    height: 0;
+}
+ 
+input.invalido+p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.valido {
+    border: $red solid .2em;
+}
+
+.invalido {
+    border: $black solid .2em;
 }
